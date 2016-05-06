@@ -16,13 +16,27 @@ class WeatherServiceImpl implements WeatherService{
 
     public function current()
     {
+        $inside = null;
+        $outside = null;
         try{
             if($row = $this->db->firstRow("select * from archive_day_inTemp order by dateTime desc")){
-                return $this->fahrenheitToCelcius($row->float("min"));
+                $inside =  $this->fahrenheitToCelcius($row->float("min"));
             }   
         } catch(DbException $e){
             var_dump($e);
         }
+
+        try{
+            if($row = $this->db->firstRow("select * from archive_day_outTemp order by dateTime desc")){
+                $outside =  $this->fahrenheitToCelcius($row->float("min"));
+            }
+        } catch(DbException $e){
+            return [null, null];
+        }
+        return [
+            "inside" => $inside,
+            "outside" => $outside
+        ];
     }
 
     private function fahrenheitToCelcius($value){
