@@ -1,0 +1,204 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c2b0362cc9b0dca730e68f9597d711f2",
+    "content-hash": "73143e028b9ffe838c78d608d2325870",
+    "packages": [
+        {
+            "name": "twig/twig",
+            "version": "v1.24.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8",
+                "reference": "3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.7"
+            },
+            "require-dev": {
+                "symfony/debug": "~2.7",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.24-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2016-01-25 21:22:18"
+        },
+        {
+            "name": "webx/db",
+            "version": "1.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/niclaslindberg/webx-db.git",
+                "reference": "b7cb3ad7f420e982871f80350787b59c9b6fb48b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/niclaslindberg/webx-db/zipball/b7cb3ad7f420e982871f80350787b59c9b6fb48b",
+                "reference": "b7cb3ad7f420e982871f80350787b59c9b6fb48b",
+                "shasum": ""
+            },
+            "require-dev": {
+                "php": ">=5.4.0",
+                "phpunit/phpunit": "4.8.16"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WebX\\Db\\": "src/Db/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nillsoft AB",
+                    "email": "niclas.lindberg@nillsoft.com",
+                    "homepage": "http://www.nillsoft.com"
+                }
+            ],
+            "keywords": [
+                "database",
+                "mysql"
+            ],
+            "time": "2016-02-12 14:03:02"
+        },
+        {
+            "name": "webx/ioc",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/niclaslindberg/webx-ioc.git",
+                "reference": "695e60d13c0f747012121a39178c0141bee4fef8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/niclaslindberg/webx-ioc/zipball/695e60d13c0f747012121a39178c0141bee4fef8",
+                "reference": "695e60d13c0f747012121a39178c0141bee4fef8",
+                "shasum": ""
+            },
+            "require-dev": {
+                "php": ">=5.5.0",
+                "phpunit/phpunit": "4.8.16"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WebX\\Ioc\\": "src/Ioc/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nillsoft AB",
+                    "email": "niclas.lindberg@nillsoft.com",
+                    "homepage": "http://www.nillsoft.com"
+                }
+            ],
+            "keywords": [
+                "di",
+                "ioc"
+            ],
+            "time": "2016-05-02 12:43:10"
+        },
+        {
+            "name": "webx/routes",
+            "version": "0.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/niclaslindberg/webx-routes.git",
+                "reference": "f3ad1892965bdf5cfbc4ac8ac5fed4230e568116"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/niclaslindberg/webx-routes/zipball/f3ad1892965bdf5cfbc4ac8ac5fed4230e568116",
+                "reference": "f3ad1892965bdf5cfbc4ac8ac5fed4230e568116",
+                "shasum": ""
+            },
+            "require": {
+                "twig/twig": "v1.24.0",
+                "webx/ioc": "1.3.1"
+            },
+            "require-dev": {
+                "larapack/dd": "1.0.0",
+                "php": ">=5.5.0",
+                "phpunit/phpunit": "4.8.16"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WebX\\Routes\\": "src/WebX/Routes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nillsoft AB",
+                    "email": "niclas.lindberg@nillsoft.com",
+                    "homepage": "http://www.nillsoft.com"
+                }
+            ],
+            "time": "2016-05-02 12:45:05"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,11 @@
+{
+    "require": {
+        "webx/routes": "0.5.3",
+        "webx/db": "1.1.6"
+    },
+    "autoload" : {
+      "psr-4": {
+        "WeatherRoutes\\" : "src/WeatherRoutes"
+      }
+    }
+}
