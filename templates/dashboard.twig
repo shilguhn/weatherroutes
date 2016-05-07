@@ -1,4 +1,9 @@
-<p>
+<html>
+<head>
+    <title>Weather</title>
+    <script src="/libs/vendor.js" type="application/javascript"></script>
+</head>
+<body><p>
     Inside:
 {{weather.inside}}
 </p>
@@ -7,4 +12,7 @@ Outside:
 {{weather.outside}}
 </p>
 <p>{{ weather.humanTimestamp }}</p>
-<p><i>{{ weather.timestamp.format("Y-m-d h:i:s") }}</i></p>
+<p><i>{{ weather.timestamp.format("Y-m-d H:i:s") }}</i></p>
+</body>
+
+</html>

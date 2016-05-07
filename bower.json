@@ -1,0 +1,10 @@
+{
+  "name": "weatherroutes",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.6.2",
+    "Chart.js": "chartjs#^2.1.1",
+    "weather-icons": "^2.0.10",
+    "bootstrap": "^3.3.6"
+  }
+}
