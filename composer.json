@@ -1,7 +1,8 @@
 {
     "require": {
         "webx/routes": "0.5.3",
-        "webx/db": "1.1.6"
+        "webx/db": "1.1.6",
+        "nesbot/carbon": "1.21.0"
     },
     "autoload" : {
       "psr-4": {
